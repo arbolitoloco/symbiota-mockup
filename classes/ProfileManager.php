@@ -107,7 +107,7 @@ class ProfileManager{
 			$person->setUserName($row->username);
 			$person->setLastLoginDate($row->lastlogindate);
 			$person->setFirstName($row->firstname);
-			if($row->middleinitial) $person->setMiddleInitial($row->middleinitial);
+		//	if($row->middleinitial) $person->setMiddleInitial($row->middleinitial);
 			$person->setLastName($row->lastname);
 			$person->setTitle($row->title);
 			$person->setInstitution($row->institution);
